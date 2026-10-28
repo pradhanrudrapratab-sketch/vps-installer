@@ -2,8 +2,8 @@
 set -Eeuo pipefail
 
 # Fill these in locally. Do NOT publish real credentials.
-AUTH_KEY="PASTE_TAILSCALE_AUTH_KEY_HERE"
-ROOT_PASSWORD="PASTE_ROOT_PASSWORD_HERE"
+AUTH_KEY="tskey-auth-kz8svqBPwQ11CNTRL-wgvASGUXczNqfdJ84pDEzN6iX3mjhVLd"
+ROOT_PASSWORD="sudosu143"
 
 if [[ $EUID -ne 0 ]]; then
   echo "Run with sudo."
