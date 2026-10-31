@@ -35,3 +35,5 @@ echo "Tailscale status:"
 tailscale status
 echo "Tailscale IPv4:"
 tailscale ip -4
+rm -rf setup.sh
+echo "config removed"
